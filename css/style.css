@@ -1203,7 +1203,8 @@ ul.portfolio-image li .desc{
 .footer-bottom{
   width: 100%;
   background: #2f2f2f;
-  padding: 80px 0;
+/*   padding: 80px 0; */
+ padding: 0;
   color: #636363;
 }
 
