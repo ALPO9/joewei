@@ -3,80 +3,59 @@
   <head>
     <meta charset="utf-8">
     <title>Joe Wei - Personal Site</title>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <meta content="Joe Wei - Personal Site" name="description">
-    <meta content="BdgPixel" name="author">
-    <!--Fav-->
-    <link href="images/favicon.ico" rel="shortcut icon">
-    
-    <!--styles-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, initial-scale=1">
+    <meta name="description" content="Joe Wei's professional data engineering portfolio site">
+    <meta name="author" content="Joe Wei">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- Styles -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/owl.carousel.css" rel="stylesheet">
     <link href="css/owl.theme.css" rel="stylesheet">
     <link href="css/magnific-popup.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
-    
-    <!--fonts google-->
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
-    
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Scripts for IE -->
     <!--[if lt IE 9]>
-       <script type="text/javascript" src="js/html5shiv.min.js"></script>
+       <script src="js/html5shiv.min.js"></script>
     <![endif]-->
   </head>
   <body>
-    <!--PRELOADER-->
+    <!-- PRELOADER -->
     <div id="preloader">
       <div id="status">
-        <img alt="logo" src="images/logo-big.png">
+        <img src="images/logo-big.png" alt="Joe Wei Personal Logo">
       </div>
     </div>
     <!--/.PRELOADER END-->
 
-    <!--HEADER -->
-    <div class="header">
+    <!-- HEADER -->
+    <header class="header">
       <div class="for-sticky">
-        <!--LOGO-->
+        <!-- LOGO -->
         <div class="col-md-2 col-xs-6 logo">
-          <a href="index.html"><img alt="logo" class="logo-nav" src="images/logo.png"></a>
+          <a href="index.html"><img class="logo-nav" src="images/logo.png" alt="Joe Wei Logo"></a>
         </div>
         <!--/.LOGO END-->
       </div>
       <div class="menu-wrap">
         <nav class="menu">
           <div class="menu-list">
-            <a data-scroll="" href="#home" class="active">
-              <span>Home</span>
-            </a>
-            <a data-scroll="" href="#about">
-              <span>About</span>
-            </a>
-            <a data-scroll="" href="#work">
-              <span>Work</span>
-            </a>
-             <a data-scroll="" href="#services">
-              <span>Services</span>
-            </a>
-            <a data-scroll="" href="#employement">
-              <span>Employement</span>
-            </a>
-            <a data-scroll="" href="#skill">
-              <span>Skills</span>
-            </a>
-            <a data-scroll="" href="#education">
-              <span>Education</span>
-            </a>
-            <a data-scroll="" href="#testimonial">
-              <span>Testimonial</span>
-            </a>
-            <!-- <a data-scroll="" href="#blog">
-              <span>Blog</span>
-            </a> -->
-            <!-- <a data-scroll="" href="#contact">
-              <span>Contact</span>
-            </a> -->
+            <a data-scroll href="#home" class="active"><span>Home</span></a>
+            <a data-scroll href="#about"><span>About</span></a>
+            <a data-scroll href="#work"><span>Work</span></a>
+            <a data-scroll href="#services"><span>Services</span></a>
+            <a data-scroll href="#employment"><span>Employment</span></a>
+            <a data-scroll href="#skill"><span>Skills</span></a>
+            <a data-scroll href="#education"><span>Education</span></a>
+            <a data-scroll href="#testimonial"><span>Testimonial</span></a>
           </div>
         </nav>
         <button class="close-button" id="close-button">Close Menu</button>
@@ -85,24 +64,21 @@
         <span></span>
         <span></span>
         <span></span>
-      </button><!--/.for-sticky-->
-    </div>
+      </button>
+    </header>
     <!--/.HEADER END-->
-    
-    <!--CONTENT WRAP-->
+
+    <!-- CONTENT WRAP -->
     <div class="content-wrap">
-      <!--CONTENT-->
       <div class="content">
-        <!--HOME-->
+        <!-- HOME -->
         <section id="home">
           <div class="container">
             <div class="row">
               <div class="wrap-hero-content">
-                  <div class="hero-content">
-                    <h1>Hello, nice to meet you!</h1>
-                    <br>
-                    <!--<span class="typed"></span>-->
-                  </div>
+                <div class="hero-content">
+                  <h1>Hello, nice to meet you!</h1>
+                </div>
               </div>
               <div class="mouse-icon margin-20">
                 <div class="scroll"></div>
@@ -112,666 +88,65 @@
         </section>
         <!--/.HOME END-->
 
-        <!--ABOUT-->
+        <!-- ABOUT -->
         <section id="about">
           <div class="col-md-6 col-xs-12 no-pad">
             <div class="bg-about"></div>
           </div>
           <div class="col-md-6 col-sm-12 col-xs-12 white-col">
             <div class="row">
-              <!--OWL CAROUSEL2-->
               <div class="owl-carousel2">
                 <div class="col-md-12">
                   <div class="wrap-about">
                     <div class="w-content">
                       <p class="head-about">
                         I’m <b>Yuanzhou (Joe) Wei</b>, <b>A Data Engineer</b> with over 5 years of experience in crafting robust data pipelines, driving actionable insights, and delivering intuitive data visualizations.
-			    <br><strong>• Data Engineering:</strong> Expertise in scalable pipeline design with SQL, Hive, MySQL, and Oracle, optimized for performance and reliability.
-			    <br><strong>• Data Visualization:</strong> Advanced skills in Tableau, creating impactful dashboards with crosstabs, geographic charts, LOD expressions, and retention analytics.
-			    <br><strong>• Big Data Technologies:</strong> Hands-on experience with Hadoop, Spark, Flume, and DataX for managing large-scale datasets.
-			    <br><strong>• Programming & Machine Learning:</strong> Proficient in Python and machine learning techniques for data-driven solutions.
-			    <br><strong>• Data Analysis Tools:</strong> Mastery in Excel for advanced functions, perspectives, and dynamic charting.
-			</p>
-                      
-                      <h5 class="name">
-                        Joe Wei
-                      </h5>
-                      <img alt="signature" src="images/signature.png">
-                    </div>
-                  </div>
-                </div>
-              
-                <div class="col-md-12 col-sm-12 col-xs-12 white-col">
-                  <div class="row">
-                    <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
-                      <div class="wrap-about">
-                        <table class="w-content">
-                          <tr>
-                            <td class="title">Name </td>
-                            <td class="break">:</td>
-                            <td> Joe Wei</td>
-                          </tr>
-                          <tr>
-                            <td class="title">Phone </td>
-                            <td class="break">:</td>
-                            <td> +1 7868673990</td>
-                          </tr>
-                          <tr>
-                            <td class="title">Email </td>
-                            <td class="break">:</td>
-                            <td> ywei011@fiu.edu</td>
-                          </tr>
-                          <tr>
-                            <td class="title">City </td>
-                            <td class="break">:</td>
-                            <td> Miami</td>
-                          </tr>
-                          <tr>
-                            <td class="title">LinkedIn </td>
-                            <td class="break">:</td>
-                            <td> <a href="https://www.linkedin.com/in/joe-wei/" target="_blank" >LinkedIn</a> </td>
-                          </tr>
-                          <tr>
-                            <td class="title">Wechat</td>
-                            <td class="break">:</td>
-                            <td> alpo88</td>
-                          </tr>
-                        </table>
-                      </div>
+                        <br><strong>Data Engineering:</strong> Expertise in scalable pipeline design with SQL, Hive, MySQL, and Oracle.
+                        <br><strong>Data Visualization:</strong> Advanced skills in Tableau for creating impactful dashboards.
+                        <br><strong>Big Data Technologies:</strong> Hands-on experience with Hadoop, Spark, Flume, and DataX.
+                        <br><strong>Programming & Machine Learning:</strong> Proficient in Python and machine learning techniques.
+                        <br><strong>Data Analysis Tools:</strong> Mastery in Excel for advanced functions and dynamic charting.
+                      </p>
+                      <h5 class="name">Joe Wei</h5>
+                      <img src="images/signature.png" alt="Joe Wei Signature">
                     </div>
                   </div>
                 </div>
               </div>
-              <!--/.OWL CAROUSEL2 END-->
             </div>
           </div>
         </section>
         <!--/.ABOUT END-->
 
-        <!--WORK-->
-        <section class="grey-bg mar-tm-10" id="work">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3">
-                <h3 class="title-small">
-                  <span>Work</span>
-                </h3>
-                <p class="content-detail">
-                  I am a Data Engineer with 5+ years of experience in designing scalable data solutions, specializing in data product engineering, data warehouse development, and advanced analytics. At TikTok, I lead the development of Creator domain data products, delivering seamless user experiences and empowering creators with actionable insights to maximize their potential.
-		</p>
-              </div>
-              <div class="col-md-9 content-right">
-                <!--PORTFOLIO IMAGE-->
-                <ul class="portfolio-image">
-                  <li class="col-md-6">
-                    <a href="images/Joe Wei.jpg"><img alt="image" src="images/Joe Wei.jpg">
-                      <div class="decription-wrap">
-                        <div class="image-bg">
-                           <p class="desc">My Resume</p>
-                        </div>
-
-                      </div>
-                    </a>
-                  </li>
-                  <li class="col-md-6">
-                    <a href="images/Trend analysis.png"><img alt="image" src="images/Trend analysis.png">
-                      <div class="decription-wrap">
-                        <div class="image-bg">
-                          <p class="desc">
-                            Trend Analysis
-                          </p>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="col-md-6">
-                    <a href="images/Retention Analysis.png"><img alt="image" src="images/Retention Analysis.png">
-                      <div class="decription-wrap">
-                        <div class="image-bg">
-                          <p class="desc">
-                            Retention Analysis
-                          </p>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="col-md-6">
-                    <a href="images/Gis Analysis.png"><img alt="image" src="images/Gis Analysis.png">
-                      <div class="decription-wrap">
-                        <div class="image-bg">
-                          <p class="desc">
-                            Gis Analysis
-                          </p>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  
-                </ul>
-                <!--/.PORTFOLIO IMAGE END-->
-              </div>
-            </div>
-          </div>
-        </section>
-        <!--/.WORK END-->
-
-        <!--SERVICES-->
-        <section class="white-bg" id="services">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3">
-                <h3 class="title-small">
-                  <span>Services</span>
-                </h3>
-                <p class="content-detail">
-                  <strong>• Comprehensive Data Solutions:</strong> End-to-end database management and data support to ensure seamless business operations.
-			  <br><strong>• Custom Data Indicator Systems:</strong> Develop clear, comprehensive data metrics tailored to reflect the company’s operational performance and strategic goals.
-			  <br><strong>• Efficient Data Warehouse Design:</strong> Design scalable, high-availability data warehouses and rich, well-structured wide tables to support diverse business needs.
-			  <br><strong>• Intuitive Data Dashboards:</strong> Build visually appealing and actionable Tableau dashboards for real-time insights and decision-making.
-			  <br><strong>• Insightful Data Analysis Reports:</strong> Deliver sharp, accurate data analysis reports to guide operational strategies, drive product optimization, and ensure effective implementation.
-			</p>
-              </div>
-              <div class="col-md-9 content-right">
-                <div class="row">
-                  <ul class="listing-item">
-                    <li>
-                      <div class="col-md-4 col-sm-4">
-                        <h3 class="icon-use">
-                          c
-                        </h3>
-                        <p class="head-sm">
-                          Datawarehouse 
-                        </p>
-                        <p class="text-grey">
-                          Powerful Datawarehouse capabilities support business departments to produce various insights and improve efficiency. 
-                        </p>
-                      </div>
-                    </li>
-
-                    <li>
-                      <div class="col-md-4 col-sm-4">
-                        <h3 class="icon-use">
-                          b
-                        </h3>
-                        <p class="head-sm">
-                          Data Development
-                        </p>
-                        <p class="text-grey">
-                          Proficient in big data development technology, familiar with dimensional modeling, data warehouse development. 
-                        </p>
-                      </div>
-                    </li>
-
-                    <li>
-                      <div class="col-md-4 col-sm-4">
-                        <h3 class="icon-use">
-                          d
-                        </h3>
-                        <p class="head-sm">
-                          Data Visualization
-                        </p>
-                        <p class="text-grey">
-                          Proficient in Tableau, PowerBI. 
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
-
-                  <ul class="listing-item">
-                    <li>
-                      <div class="col-md-4 col-sm-4">
-                        <p class="icon-use">
-                          f
-                        </p>
-                        <p class="head-sm">
-                          Leadership
-                        </p>
-                        <p class="text-grey">
-                          Good at teamwork, team leadership, able to lead the team to efficiently solve complex problems and complete project delivery. 
-                        </p>
-                      </div>
-                    </li>
-
-                    <li>
-                      <div class="col-md-4 col-sm-4">
-                        <h3 class="icon-use">
-                          p
-                        </h3>
-                        <p class="head-sm">
-                          Ownership
-                        </p>
-                        <p class="text-grey">
-                          Good at from 0 to 1, effectively helping the company grow rapidly.
-                        </p>
-                      </div>
-                    </li>
-
-                    <li>
-                      <div class="col-md-4 col-sm-4">
-                        <h3 class="icon-use">
-                          m
-                        </h3>
-                        <p class="head-sm">
-                          Medical Industry Data Expert
-                        </p>
-                        <p class="text-grey">
-                          5+ years of experience as a data engineer in the medical industry, good at doctor and patient data research.
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!--/.SERVICES END-->
-
-        <!--EMPLOYEMENT-->
-        <section class="grey-bg" id="employement">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3">
-                <h3 class="title-small">
-                  <span>Employement</span>
-                </h3>
-                <p class="content-detail">
-		    <strong>At TikTok</strong>, I lead the design and development of Creator domain data products, including <em>Creator App</em>, <em>Creator Insights</em>, and <em>MyCreator</em>. By building scalable data solutions and optimizing dashboards, I empower creators with actionable insights to understand performance, analyze audiences, and drive engagement across global markets.
-		</p>
-		<p class="content-detail">
-		    <strong>At Naxions</strong>, I was proud to be the 24th employee of the company, which has now grown to over 1,000 employees! We connect doctors and patients through a VR virtual representative business. Through technology, we:
-		    <ul>
-		        <li>Help doctors in remote areas access the latest medical knowledge and support.</li>
-		        <li>Make doctors’ diagnoses more accurate and reasonable.</li>
-		        <li>Ensure patients receive happier, more effective treatments.</li>
-		    </ul>
-		    Our efforts expanded our doctor coverage from 10,000 to 600,000 and reached 8,000+ hospitals.
-		</p>
-              </div>
-              <div class="col-md-9 content-right">
-                <div class="row">
-                  <ul class="listing-item">
-			<li>
-			  <div class="col-md-6 col-sm-6">
-			    <div class="wrap-card">
-			      <div class="card">
-			        <h2 class="year">
-			          2023.05 - Present
-			        </h2>
-			        <p class="job">
-			          <b>Data Engineer</b>
-			        </p>
-			        <p class="company">
-			          <b><a href="https://www.tiktok.com/" target="_blank">TikTok Inc.</a></b>
-			        </p>
-			        <hr>
-			        <div class="text-detail">
-			          <p>
-			            • <strong>Data Products Engineering:</strong> Designed and developed Creator domain data products, including Creator App, Creator Insights, and MyCreator, empowering creators with actionable insights to improve performance and engagement.
-			            <br>• <strong>Datawarehouse Design:</strong> Built and maintained 150+ data tables across DWD, DWM, DM, and APP layers, covering diverse business scenarios (Hive, Doris, Abase, ClickHouse).
-			            <br>• <strong>Data ETL:</strong> Developed and deployed 500+ global ETL tasks (Hive2Doris, Hive2Abase, Hive2ClickHouse) to ensure stable and accurate data output.
-			            <br>• <strong>Data Quality Monitoring:</strong> Led a global Data Quality project, achieving 95% weak rule monitoring coverage and 75% strong rule monitoring coverage to ensure reliable data outputs.
-			            <br>• <strong>Data Support:</strong> Consolidated Creator and Affiliate data assets to reduce redundancy, enhance timeliness, and improve downstream data accessibility.
-			          </p>
-			        </div>
-			      </div>
-			    </div>
-			  </div>
-			</li>
-			  
-                    <li>
-                      <div class="col-md-6 col-sm-6">
-                        <div class="wrap-card">
-                          <div class="card">
-                            <h2 class="year">
-                              2021.09 - 2023.04
-                            </h2>
-                            <p class="job">
-                            <b>  Data/Web Engineer Research Assistant
-                            </p>
-                            <p class="company">
-                              <b><a href="https://ece.fiu.edu/index.html" target="_blank" >Florida International University</a>
-                            </p>
-                            <hr>
-                            <div class="text-detail">
-                              <p>•	Datawarehouse Design: Design ECE data warehouse, covering 5 themes: Admission, Enrollment, Academic, Faculty, Research (MySQL, Airflow)
-								<br>•	Data Visualization: Build various data visualization boards on Tableau, including student registration, graduation, course, careers, and faculty research (Tableau)
-								<br>•	Web Development: Built FIU-ECE website, designing personal websites for 25 professors (WordPress, HTML)
-								<br>•	Data support: Provided data support for FIU to pass the ABET certification of the Engineering Accreditation Council
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-
-                    <li>
-                      <div class="col-md-6 col-sm-6">
-                        <div class="wrap-card">
-                          <div class="card">
-                            <h2 class="year">
-                              2019.10 - 2021.08
-                            </h2>
-                            <p class="job">
-                            <b>  Senior Data Engineer
-                            </p>
-                            <p class="company">
-							  <b><a href="https://www.naxions.com/" target="_blank" >Naxions</a>
-                            </p>
-                            <hr>
-                            <div class="text-detail">
-                              <p>•	Standardizing Metrics: Increased data accuracy, cross-depart communication efficiency by standardizing data metrics
-								<br>•	Data ETL: Built ETL pipeline by Azkaban and Ali-cloud service, and improved the efficiency of data script construction by developing an automatic python script generation tool (Ali-cloud, Azkaban, Python, MySQL)
-								<br>•	Data Visualization: Automated 80% of data reports by visualizing 50+ data analysis dashboards (Tableau, MySQL)
-								<br>•	Datawarehouse Design: Build high available data warehouse on Ali-cloud, and design 100+ data tables on the DWD, DWS, and ADS layers, covering different metrics statistics of the business on a daily, weekly, and monthly basis (MySQL, Python, Ali-cloud) 
-								<br>•	Business Support: Organized and merged similar data requirements of business departments, generated automated tableau data dashboards, reduced the proposal of repeated requirements
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>  
-                  <ul class="listing-item">
-                    <li>
-                      <div class="col-md-6 col-sm-6">
-                        <div class="wrap-card">
-                          <div class="card">
-                            <h2 class="year">
-                              2018.06 - 2019.10
-                            </h2>
-                            <p class="job">
-                             <b> Data Engineer
-                            </p>
-                            <p class="company">
-							<b><a href="https://corporate.jd.com/home" target="_blank" >JD</a>
-                            </p>
-                            <hr>
-                            <div class="text-detail">
-                              <p>•	Standardizing Metrics: Reduced cross-depart communication cost by standardizing data metrics
-								<br>•	Data Visualization: Automated 60% of business data report effort by developing 40+ dashboards (Tableau, MySQL)
-								<br>•	Data Analysis: Analyzed user behavior by designing user retention rate, line chart trend analysis, funnel analysis at different stages, and GIS data dashboard. Effectively help the company improve user retention rate and optimize SOP
-								<br>•	Datawarehouse Design: Designed high-availability data warehouse and rich wide tables on ADS layer to facilitate the extraction and analysis of data results by business 
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-
-                    <li>
-                      <div class="col-md-6 col-sm-6">
-                        <div class="wrap-card">
-                          <div class="card">
-                            <h2 class="year">
-                              2016.05 - 2016.09
-                            </h2>
-                            <p class="job">
-                             <b> Data Engineer Intern
-                            </p>
-                            <p class="company">
-							<b><a href="https://www.didiglobal.com/" target="_blank" >DIDI</a>
-                            </p>
-                            <hr>
-                            <div class="text-detail">
-                              <p>•	Datawarehouse Design: Improved business efficiency by building 30+ data tables in Data warehouse, wrote data scheduling scripts by Python (Python, MySQL, HIVE, Presto)
-								<br>•	Data Analysis: Queried and analyzed big data with Hive, optimized hive to improve query efficiency by 60%
-								<br>•	Data Analysis: Generated business report and translated analysis and insights into actionable recommendations
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!--/.EMPLOYEMENT END-->
-
-        <!--SKILLS-->
-        <section class="white-bg" id="skill">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3">
-                <h3 class="title-small">
-                  <span>Skills</span>
-                </h3>
-                <p class="content-detail">
-                  •	Skills: MySQL, Airflow, Hive, Kettle, Oracle, Spark, ETL, Python, Tableau, Excel, AWS, Azkaban, Hadoop, HTML
-					<br>•	Certificates: Google Data Analytics, Google Analytics Individual Qualification, Microsoft Azure AI Fundamentals, Duke: Managing Big Data with MySQL, Business Metrics for Data-Driven Companies
-
-                </p>
-              </div>
-              <div class="col-md-9 content-right">
-                <!--SKILLST-->
-                <div class="skillst">
-                  <div class="skillbar" data-percent="95%">
-                    <div class="title head-sm">
-                      MySQL
-                    </div>
-                    <div class="count-bar">
-                      <div class="count"></div>
-                    </div>
-                  </div>
-				  <div class="skillbar" data-percent="95%">
-                    <div class="title head-sm">
-                      Oracle
-                    </div>
-                    <div class="count-bar">
-                      <div class="count"></div>
-                    </div>
-                  </div>
-				  <div class="skillbar" data-percent="95%">
-                    <div class="title head-sm">
-                      Hive
-                    </div>
-                    <div class="count-bar">
-                      <div class="count"></div>
-                    </div>
-                  </div>
-                  <div class="skillbar" data-percent="95%">
-                    <div class="title head-sm">
-                      Tableau
-                    </div>
-                    <div class="count-bar">
-                      <div class="count"></div>
-                    </div>
-                  </div>
-                  <div class="skillbar" data-percent="90%">
-                    <div class="title head-sm">
-                      Hadoop
-                    </div>
-                    <div class="count-bar">
-                      <div class="count"></div>
-                    </div>
-                  </div>
-                  <div class="skillbar" data-percent="95%">
-                    <div class="title head-sm">
-                      MS Office
-                    </div>
-                    <div class="count-bar">
-                      <div class="count"></div>
-                    </div>
-                  </div>
-                  <div class="skillbar" data-percent="90%">
-                    <div class="title head-sm">
-                      Python
-                    </div>
-                    <div class="count-bar">
-                      <div class="count"></div>
-                    </div>
-                  </div>
-                </div>
-                <!--/.SKILLST END-->
-              </div>
-            </div>
-          </div>
-        </section>
-        <!--/.SKILLS END-->
-
-        <!--EDUCATION-->
-        <section class="grey-bg" id="education">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3">
-                <h3 class="title-small">
-                  <span>Education</span>
-                </h3>
-                <p class="content-detail">
-                  <b>Never too old to learn!</b>
-                </p>
-              </div>
-              <div class="col-md-9 content-right">
-                <div class="row">
-                  <ul class="listing-item">
-                    <li>
-                      <div class="col-md-6 col-sm-6">
-                        <div class="wrap-card">
-                          <div class="card">
-                            <h2 class="year">
-                              2021.08 - 2022.12
-                            </h2>
-                            <p class="job">
-                              <b>M.S in Computer Engineering</b>	
-                            </p>
-                            <p class="company" > 
-                              <b>Florida International University
-                            </p>
-                            <hr>
-                            <div class="text-detail">
-                              <p>
-                                Coursework: Principles of DBMS, Adv Neural Networks, Intro to Data Science, Adv loT Applied ML, Adv loT DL
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-
-                    <li>
-                      <div class="col-md-6 col-sm-6">
-                        <div class="wrap-card">
-                          <div class="card">
-                            <h2 class="year">
-                              2015.09 - 2017.08
-                            </h2>
-                            <p class="job">
-                             <b>M.S in Software Engineering</b>	 
-                            </p>
-                            <p class="company">
-                              <b>Beihang University</b>
-                            </p>
-                            <hr>
-                            <div class="text-detail">
-                              <p>
-                                Coursework: Cloud Computing & Big Data, Data Structure & Algorithm Analysis, Database Design, Data Analysis
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-            
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!--/.EDUCATION END-->
-
-        <!--TESTIMONIAL-->
-        <section id="testimonial">
-          <div class="container">
-            <div class="row wrap-testimonial">
-              <div class="col-md-10 col-md-offset-1">
-                <div class="owl-carousel">
-                  <div class="list-testimonial">
-                    <div class="content-testimonial">
-                      <h3 class="testi">
-                        “ Joe has done a phenomenal job at Florida International University - Electrical & Computer Engineering, he did it everything efficiently. He Provided data support for FIU ECE to pass the ABET certification of the Engineering Accreditation Council! He always finds solutions to help the college solve real problems! ”
-                      </h3>
-                      <p class="people">
-                        Dr.Deidra R. Hodges
-						<br>ECE Department Chair
-                      </p>
-                    </div>
-                  </div>
-                  <div class="list-testimonial">
-                    <div class="content-testimonial">
-                      <h3 class="testi">
-                        “ Working with Joe is a joy. He is able to think through the whole project and give a reasonable solution, he is responsive and professional. ”
-                      </h3>
-                      <p class="people">
-                        XQ Ma
-                      </p>
-                    </div>
-                  </div>
-                  <div class="list-testimonial">
-                    <div class="content-testimonial">
-                      <h3 class="testi">
-                        “ Great data analyst! I like his responsible attitude, especially when it comes to providing solutions for business units, very easy to get along with! The data he provides is always accurate, without any errors! ”
-                      </h3>
-                      <p class="people">
-                        Min L
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="mask-testimonial"></div>
-        </section>
-        <!--/.TESTMONIAL END-->
-
-        
-        <!--FOOTER-->
+        <!-- FOOTER -->
         <footer>
           <div class="footer-top">
             <ul class="socials">
-              <li class="facebook">
-                <a href="https://www.linkedin.com/in/joe-wei/" target="_blank" data-hover="LinkedIn">LinkedIn</a>
-              </li>
-              <li class="twitter">
-                <a href="https://www.linkedin.com/in/joe-wei/" target="_blank" data-hover="LinkedIn">LinkedIn</a>
-              </li>
-              <li class="gplus">
-                <a href="https://www.linkedin.com/in/joe-wei/" target="_blank" data-hover="LinkedIn">LinkedIn</a>
-              </li>
+              <li class="facebook"><a href="https://www.linkedin.com/in/joe-wei/" target="_blank" data-hover="LinkedIn">LinkedIn</a></li>
+              <li class="twitter"><a href="https://www.linkedin.com/in/joe-wei/" target="_blank" data-hover="LinkedIn">LinkedIn</a></li>
+              <li class="gplus"><a href="https://www.linkedin.com/in/joe-wei/" target="_blank" data-hover="LinkedIn">LinkedIn</a></li>
             </ul>
           </div>
-
           <div class="footer-bottom">
             <div class="textcenter">
-              <big>Built by Joe Wei © 2022 </big>
+              <big>Built by Joe Wei © 2024</big>
             </div>
           </div>
         </footer>
-        <!--/.FOOTER-END-->
-
-      <!--/.CONTENT END-->
+        <!--/.FOOTER END-->
       </div>
-    <!--/.CONTENT-WRAP END-->
     </div>
-    
 
-    <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
-    <script src="js/jquery.appear.js" type="text/javascript"></script>
-    <script src="js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="js/classie.js" type="text/javascript"></script>
-    <script src="js/owl.carousel.min.js" type="text/javascript"></script>
-    <script src="js/jquery.magnific-popup.min.js" type="text/javascript"></script>
-    <script src="js/masonry.pkgd.min.js" type="text/javascript"></script>
-    <script src="js/masonry.js" type="text/javascript"></script>
-    <script src="js/smooth-scroll.min.js" type="text/javascript"></script>
-    <script src="js/typed.js" type="text/javascript"></script>
-    <script src="js/main.js" type="text/javascript"></script>
+    <!-- Scripts -->
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/typed.js" defer></script>
+    <script src="js/main.js" defer></script>
   </body>
 </html>
